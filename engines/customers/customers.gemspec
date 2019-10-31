@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "rails", "~> 5.2.3"
-  spec.add_dependency 'devise', '~> 4.4.3'
+  spec.add_dependency 'devise', '>= 4.4.3', '< 4.8.0'
   spec.add_dependency 'devise_token_auth', '~> 1.1.0'
   spec.add_dependency 'pg'
   spec.add_development_dependency 'rspec-rails'
